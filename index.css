@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.header {
+  margin: 3em;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  color: #C4C4CC;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 400;
+  width: 8%;
+  
+}
+
+.header a:nth-child(2) {
+  width: 5%;
+}
+
+.header a:focus{
+  color: #fff;
+  font-weight: 700;
+}
+
+.home_page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 198px;
+}
+
+.title_home {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.home_page button {
+  margin-top: 24px;
+  padding: 12px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: none;
+  border: 3px solid #ffff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.home_page button:hover {
+  background-color: #fff;
+  color: #02799D;
+}
+
+.universo_page,
+.exploracao_page {
+  margin: 162px 102px;
+  width: 40%;
+}
+
+.universo_page h1,
+.exploracao_page h1 {
+  font-size: 48px;
+  margin: 16px 0;
+}
+
+.universo_page p,
+.exploracao_page p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.error_nav a  {
+  opacity: 0;
+  cursor: default;
+}
+
+.error h1 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 178px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
