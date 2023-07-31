@@ -7,7 +7,7 @@
 
 <br>
 
-![screen-gif](./assets/spa.gif)
+![screen-gif](./img/spa.gif)
 
 ## Funcionalidades
 
