@@ -6,10 +6,13 @@ export class Router {
 
   add(routeName, page) {
     this.routes [routeName] = page;
+
+    console.log(this.routes)
   }
 
+
   route(event) {
-    event = event || window.event
+    event = event
     event.preventDefault();
 
     window.history.pushState({}, "", event.target.href);
