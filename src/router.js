@@ -6,8 +6,6 @@ export class Router {
 
   add(routeName, page) {
     this.routes [routeName] = page;
-
-    console.log(this.routes)
   }
 
 
