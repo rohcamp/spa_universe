@@ -1,3 +1,11 @@
 body{
   background-image: url(/img/error404.jpg);
 }
+
+.error h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 50%;
+}
